@@ -1,0 +1,233 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
+    background-color: aliceblue;
+    background-color: white;
+
+    background-color: #DAAA63;
+    font-family: Montserrat;
+    background-color: #2C1810;
+    /* background-color: #202124; */
+    /* background-color: rgb(28 24 11);; */
+    background-color: black;
+    background-color: white;
+    color: #999;
+    color: black;
+    /* color: white; */
+}
+
+.form{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.form-section{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    /* border: 1px solid grey; */
+    /* box-shadow: ; */
+    box-shadow: 0 0 20px 9px #ffdaa3;
+    box-shadow: 0 0 20px 9px #8b6b3c;
+    box-shadow: 0 0 20px 9px #787878;
+
+
+}
+
+.button-section{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ffdaa3;
+    /* box-shadow: 0 0 20px 9px #ffcc81;
+    box-shadow: 0 0 20px 9px #ffcca0;
+    box-shadow: 0 0 20px 9px #ff8181; */
+    box-shadow: 0 0 20px 9px #ffedd2;
+    border-radius: 30px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    /* color: black; */
+}
+a:hover{
+    text-decoration: none;
+    transform: all 1s ease-in-out;
+    color: #999;
+    color: white;
+}
+
+.toggle{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    /* outline: none; */
+    position: relative;
+}
+
+.btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #ffe210, #ffad06);
+    background: linear-gradient(to right, #ffad06, #ffe210);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+.social-icons i{
+    width: 45px;
+    padding: 2px;
+    border-radius: 60px;
+    box-shadow: 1px 1px 1px 1px #ffcc81;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: .5s;
+    /* box-shadow: 0 0 5px 5px #666; */
+    /* box-shadow: -2px -1px 15px 16px rgba(0,0,0,0.75); */
+}
+
+.social-icons i:hover{
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.color{
+    color: #ffcc81;
+    color: #ff9f13;
+}
+
+.input-section{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    margin-top: -50px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    margin-left: 28px;
+}
+
+
+.submit-btn{
+    width: 95%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #ffad06, #ffe210);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.checkbox{
+    margin: 30px 15px 10px 25px;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-top: 20px;
+    /* bottom: 68px; */
+    position: absolute;
+}
+
+#Login{
+    left: 25px;
+}
+
+
+#Signup{
+    left: 400px;
+    
+}
+
+
+/* ----------------------------------------Responsive-------------------------------------------- */
+
+@media only screen and (max-width: 427px){
+    .form{
+        padding-top: 75px;
+    }
+
+    .input-section{
+        margin-left: -10px;
+    }
+}
+
+
+/* @media only screen and (max-width: 427px){
+    .form-section{
+        width: 300px;
+    
+    }
+    .input-section{
+        margin-left: -10px;
+    }
+} */
+
+
+@media only screen and (max-width: 377px){
+
+    /* .form{
+        padding-top: 85px;
+    } */
+    .form-section{
+        width: 360px;
+    
+    }
+    .input-section{
+        margin-left: -30px;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+
+    .form{
+        padding-top: 85px;
+    }
+    .form-section{
+        width: 360px;
+    
+    }
+    .input-section{
+        margin-left: -30px;
+    }
+}

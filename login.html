@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/338146488a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <div class="form">
+        <div class="form-section">
+            <div class="button-section">
+                <div id="btn" class="btn"></div>
+                <button type="button" class="toggle" onclick="login()">Log In</button>
+                <button type="button" class="toggle" onclick="signup()">Sign Up</button>
+            </div>
+           
+
+            <div id="Login" class="input-section">
+                <input type="text"  class="input" placeholder="User-Id">
+                <input type="text"  class="input" placeholder="Password">
+                <input type="checkbox"  class="checkbox"><span>Remember Password</span>
+
+                <div class="social-icons">
+                    <i class="fab fa-google color fa-sm"></i>
+                    <i class="fab fa-facebook-f color fa-sm"></i>
+                    <i class="fab fa-twitter color fa-sm"></i>
+                </div>
+                <button type="submit" class="submit-btn"><a href="index.html"> Login</a></button>
+            </div>
+
+            <div id="Signup" class="input-section">
+                <input type="text"  class="input" placeholder="User-Id">
+                <input type="text"  class="input" placeholder="Password">
+                <input type="text"  class="input" placeholder="Email-Id">
+                <input type="checkbox"  class="checkbox"><span>Agree to the terms and conditions</span>
+
+                <div class="social-icons">
+                    <i class="fab fa-google color fa-sm"></i>
+                    <i class="fab fa-facebook-f color fa-sm"></i>
+                    <i class="fab fa-twitter color fa-sm"></i>
+                </div>
+                <button type="submit" class="submit-btn"><a href="index.html"> Sign Up</a></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
